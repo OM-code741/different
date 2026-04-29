@@ -1,91 +1,87 @@
-#  print("hello world")
-#   print("om")
-#  print(2+4)
-# import pyjokes
-#  joke = pyjokes.get_joke()
-#  print (joke)
-# this print a special 
- # jokes here is the bes
-# t way to resolve jokres
- # si that anybo
- # dy can read
- # your program easily
-# # ?print("Twinkle, twinkle, little star,How I wonder what you are!Up above the world so high,Like a diamond in the sky.")
-# print('''Twinkle, twinkle, little star,
-# How I wonder what you are!
-# Up above the world so high,
-# Like a diamond in the sky.
+ print("hello world")
+  print("om")
+ print(2+4)
+import pyjokes
+joke = pyjokes.get_joke()
+ print (joke)
+this print a special 
+ jokes here is the bes
+t way to resolve jokres
+ si that anybo
+ dy can read
+ your program easily
+print("Twinkle, twinkle, little star,How I wonder what you are!Up above the world so high,Like a diamond in the sky.")
+print('''Twinkle, twinkle, little star,
+How I wonder what you are!
+Up above the world so high,
+Like a diamond in the sky.
 
-# When the blazing sun is gone,
-# When he nothing shines upon,
-# Then you show your little light,
-# Twinkle, twinkle, all the night.
+When the blazing sun is gone,
+When he nothing shines upon,
+Then you show your little light,
+ Twinkle, twinkle, all the night.
+ Then the traveler in the dark# Thanks you for your tiny spark,
+ How could he see where to go,
+ If you did not twinkle so?
+ In the dark blue sky you keep,
+ Often through my curtains peep
+ For you never shut your eye,
+ Till the sun is in the sky.
+ As your bright and tiny spark
+ Lights the traveler in the dark,
+ Though I know not what you are,
+Twinkle, twinkle, little star.''')
+import pyttsx3
+engine = pyttsx3.init()
 
-# Then the traveler in the dark
-# Thanks you for your tiny spark,
-# How could he see where to go,
-# If you did not twinkle so?
+ # For Mac, If you face error related to "pyobjc" when running the `init()` method :
+ # Install 9.0.1 version of pyobjc : "pip install pyobjc>=9.0.1"
 
-# In the dark blue sky you keep,
-# Often through my curtains peep
-# For you never shut your eye,
-# Till the sun is in the sky.
+engine.say("ORS them is one of the best team is the history of world")
+engine.runAndWait()
+Simple pygame program
 
-# As your bright and tiny spark
-# Lights the traveler in the dark,
-# Though I know not what you are,
-# Twinkle, twinkle, little star.''')
-# import pyttsx3
-# engine = pyttsx3.init()
-
-# # For Mac, If you face error related to "pyobjc" when running the `init()` method :
-# # Install 9.0.1 version of pyobjc : "pip install pyobjc>=9.0.1"
-
-# engine.say("ORS them is one of the best team is the history of world")
-# engine.runAndWait()
-# Simple pygame program
-
-# Import and initialize the pygame library
-# a= 1
-# b=("harry")
-# print(b and a)
+Import and initialize the pygame library
+ a= 1
+ b=("harry")
+ print(b and a)
 a=1
-# aaa=122
-# harry=123
-# _harry=233
-# @harry=5454
-# a += 1
-# print(a)
-# a = 2.43
-# t=(type(a))
-# print (t)
+ aaa=122
+ harry=123
+ _harry=233
+ @harry=5454
+ a += 1
+ print(a)
+ a = 2.43
+ t=(type(a))
+print (t)
 a = 1 
 b = 2
 
-# print(a+b)
-# a = 2
-# b = 4
-# print( "remainder when a divided by b", a % b )
-# #a = 4
-# input("enter the value of a: ")
-# a= "harry"  
-# nameshort = a[0:3]
-# character1= a[1]
-# print(character1)
-# name= "omkumar" 
-# print(name[0:3])
-# print(len(name))
-# a = input("enter your cute name: ")
-# print (f"good afternoon {a} ")
-# print(f"what can i help you cutie pie? {a} ")
-# print(f"i am your personal coach,bhaiya, didi. babu {a} ")
-# b = input("type Z for more information")
-# print (f"our server is currently down today{a}")""""
-#import pygame
-#import random
+ print(a+b)
+ a = 2
+ b = 4
+ print( "remainder when a divided by b", a % b )
+ #a = 4
+ input("enter the value of a: ")
+ a= "harry"  
+ nameshort = a[0:3]
+ character1= a[1]
+ print(character1)
+ name= "omkumar" 
+ print(name[0:3])
+ print(len(name))
+ a = input("enter your cute name: ")
+print (f"good afternoon {a} ")
+ print(f"what can i help you cutie pie? {a} ")
+ print(f"i am your personal coach,bhaiya, didi. babu {a} ")
+ b = input("type Z for more information")
+ print (f"our server is currently down today{a}")""""
+import pygame
+import random
 
 # 1. Setup Game
-"""pygame.init()
+pygame.init()
 WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Gangster Street Fight - No Images")
@@ -190,8 +186,8 @@ PLAYER_BLUE, (player_pos[0], player_pos[1], player_size, player_size))
     pygame.display.update()
     clock.tick(60)
 
-pygame.quit"""
-"""from ursina import *
+pygame.quit
+from ursina import *
 import random
 
 # 1. Game Setup
@@ -270,8 +266,8 @@ def update():
             destroy(e)
 
 # Game Start
-app.run()"""
-"""from ursina import *
+app.run()
+from ursina import *
 from ursina.prefabs.first_person_controller import FirstPersonController
 import random
 
@@ -433,13 +429,13 @@ def submit():
     return f"<h1>Hello {name}, welcome to my website!</h1>"
 
 if __name__ == '__main__':
-app.run(debug=True)"""
+app.run(debug=True)
 
 #sum of two nunber
-"""a=2
+a=2
 b= " harry"  #string
 print(a)
-print(b)"""
+print(b)
 
 
 
@@ -448,7 +444,7 @@ print(b)"""
 # print(y)
 # print(z)
 
-"""a = " 23"
+a = " 23"
 b= ("you are" +a)
 print(a)
  
@@ -468,7 +464,7 @@ print(len(a))
 
 fruits =["apple", "banana", "cherry"]
 is_apple_present ="apple" in fruits
-print(f"Is 'apple' in the list? {is_apple_present}")"""
+print(f"Is 'apple' in the list? {is_apple_present}")
  
 
 
