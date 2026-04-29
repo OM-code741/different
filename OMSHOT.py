@@ -472,7 +472,7 @@ print(f"Is 'apple' in the list? {is_apple_present}")"""
  
 
 
-'''print(a[0])
+print(a[0])
 print(a[2])
 print(a[1])
 for x in a:
@@ -487,4 +487,4 @@ print(a)
 a.remove("HAMZA")
 print(a)
 a.pop()
-print(a)'''
+print(a)
