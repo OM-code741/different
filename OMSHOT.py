@@ -1,15 +1,15 @@
- print("hello world")
-  print("om")
- print(2+4)
+print("hello world")
+print("om")
+print(2+4)
 import pyjokes
 joke = pyjokes.get_joke()
- print (joke)
-this print a special 
+print (joke)
+"""this print a special 
  jokes here is the bes
 t way to resolve jokres
  si that anybo
  dy can read
- your program easily
+ your program easil"""
 print("Twinkle, twinkle, little star,How I wonder what you are!Up above the world so high,Like a diamond in the sky.")
 print('''Twinkle, twinkle, little star,
 How I wonder what you are!
@@ -39,11 +39,11 @@ engine = pyttsx3.init()
 
 engine.say("ORS them is one of the best team is the history of world")
 engine.runAndWait()
-Simple pygame program
+#Simple pygame program
 
-Import and initialize the pygame library
- a= 1
- b=("harry")
+I#mport and initialize the pygame library
+a= 1
+b=("harry")
  print(b and a)
 a=1
  aaa=122
@@ -76,7 +76,7 @@ print (f"good afternoon {a} ")
  print(f"what can i help you cutie pie? {a} ")
  print(f"i am your personal coach,bhaiya, didi. babu {a} ")
  b = input("type Z for more information")
- print (f"our server is currently down today{a}")""""
+ print (f"our server is currently down today{a}")
 import pygame
 import random
 
@@ -484,3 +484,5 @@ a.remove("HAMZA")
 print(a)
 a.pop()
 print(a)
+
+#this code is different
