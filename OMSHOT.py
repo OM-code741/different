@@ -1,15 +1,15 @@
-print("hello world")
+"""print("hello world")
 print("om")
 print(2+4)
 import pyjokes
 joke = pyjokes.get_joke()
 print (joke)
-"""this print a special 
+this print a special 
  jokes here is the bes
 t way to resolve jokres
  si that anybo
  dy can read
- your program easil"""
+ your program easil
 print("Twinkle, twinkle, little star,How I wonder what you are!Up above the world so high,Like a diamond in the sky.")
 print('''Twinkle, twinkle, little star,
 How I wonder what you are!
@@ -483,6 +483,48 @@ print(a)
 a.remove("HAMZA")
 print(a)
 a.pop()
-print(a)
+print(a)"""
 
 #this code is different
+# name = "riya"
+# age = 17
+# city = "kanpur"
+# txt= "my name is {}, I am {} year old, I live in {}."
+# print(txt.format(name, age, city))
+# # a, b, c = 10, 20, 30 
+# print(a+b+c)
+# a="I love Python"
+# print (a)
+# print (a)
+# print (a)
+# name = "Riya"
+# marks = 95
+# txt = "{} scored {} marks"
+# print(txt.format(name, marks))
+# list= ["apple", "banana", "mango"]
+# list[1]="orange"
+# print(list)
+# list= [1,2,3,4,5]
+# for x in list:
+#    print(x)
+
+# name, age = "Riya", 18
+# marks = [80, 85, 90]
+# z=marks[1]
+# print(z)
+# txt="{}'s average marks is {}"
+# print(txt.format(name, z))
+a=" I, am, learning, Python"
+b= (a.split(","))
+print(b)
+for x in b:
+   print(x)
+ 
+
+
+a=" I, am, typing, Python"
+b= (a.split(","))
+print(b)
+for x in b:
+   print(x)
+ 
